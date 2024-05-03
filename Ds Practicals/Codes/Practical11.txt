@@ -1,0 +1,24 @@
+			Practical 11
+Create databases and tables, insert small amounts of data, and run simple queries using Impala.
+
+Step 1: Download Virtual Box from:
+	https://www.virtualbox.org/wiki/Downloads
+Step 2: Download cloudera zip from:
+	https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3dMNEJmdEdYTWdIOEs3bkdfbnhQZmM5MWJfQXxBQ3Jtc0tuTEc0eUlNTEFIV3g0SXliWGZsbjd2c1ZXS01UeEJkYUptVE9jQTNnVkpyS19ZUF9tX1VUNzFYZEc5bVFxV0VPcXVOLWFmVlBxcDNTWkdaUDRrVTZ5QnNzVU1HWWxVcnR4RFRvcEtWWUFXMFFLcjk0aw&q=https%3A%2F%2Fdownloads.cloudera.com%2Fdemo_vm%2Fvirtualbox%2Fcloudera-quickstart-vm-5.13.0-0-virtualbox.zip&v=nTzgeTKQg2E
+
+Step 3: Open Virual Box --> New:
+ 				Name: Cloudera
+			    	Type: Linux
+				Version Red Hat 64bit
+				Next--> 
+				Memory size: 4700 mb
+				Next -->
+				Create VM:
+				Select option, Use existing hard 				disk file and then open the 					extracted cloudera file and select 				cloudera VM hard disk.
+				Next --> Choose.
+
+Step 4: Goto settings --> System --> Processor --> 4/2
+		|--> Network --> Attached to: Bridged Adaptor.
+Step 5: Cick on Start.
+
+Step 6: Earth cha sign --> hue --> blue dropdown --> Editor -->				impala
